@@ -1,6 +1,5 @@
 #if !defined (MAZE_H)
 #define MAZE_H
-
 #include "Matrix.h"
 using CSC2110::Matrix;
 #include "Drawable.h"
