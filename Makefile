@@ -2,7 +2,11 @@ AutomatedMakefile = am
 CC = g++
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 FILES = MazeGUI.o Maze.o
+=======
+FILES =  MazeGUI.o Maze.o
+>>>>>>> origin/master
 =======
 FILES =  MazeGUI.o Maze.o
 >>>>>>> origin/master
@@ -23,6 +27,7 @@ all: Project
 
 Project: 		$(FILES)
 <<<<<<< HEAD
+<<<<<<< HEAD
 			$(LINK) $(EXECUTABLE) $(FILES) $(LIBS)	
 
 
@@ -36,8 +41,16 @@ Maze.o:		Maze.h Maze.cpp
 			$(LINK) $(EXECUTABLE) $(FILES) $(LIBS)
 
 
+=======
+			$(LINK) $(EXECUTABLE) $(FILES) $(LIBS)
+
+
+>>>>>>> origin/master
 MazeGUI.o:		MazeGUI.h MazeGUI.cpp
 			$(COMPILE) MazeGUI.cpp
 Maze.o:			Maze.h Maze.cpp
 			$(COMPILE) Maze.cpp
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
